@@ -1,0 +1,31 @@
+function RTW_SidParentMap() {
+    this.sidParentMap = new Array();
+    this.sidParentMap["sfir_fixed:40"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:41"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:42"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:43"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:44"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:45"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:46"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:47"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:48"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:49"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:50"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:51"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:52"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:53"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:54"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:55"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:56"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:57"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:58"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:59"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:60"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:61"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:62"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:63"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:64"] = "sfir_fixed:39";
+    this.sidParentMap["sfir_fixed:65"] = "sfir_fixed:39";
+    this.getParentSid = function(sid) { return this.sidParentMap[sid];}
+}
+    RTW_SidParentMap.instance = new RTW_SidParentMap();

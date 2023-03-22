@@ -1,0 +1,23 @@
+Task "Create Project" successful.
+Generated logfile: 
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source symmetric_fir_Xilinx_Vivado_run.tcl -notrace
+### Open existing Xilinx Vivado 2022.2 project <a href="matlab:downstream.handle('Model','sfir_fixed').openTargetTool;">hdl_prj\vivado_prj\symmetric_fir_vivado.xpr</a>
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Marco Milanesi/OneDrive/Documenti/Laboratori Merced/Symmetric_FIR_filter/hdl_prj/vivado_prj'
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Marco Milanesi/OneDrive/Documenti/Laboratori Merced/Symmetric_FIR_filter/hdl_prj/vivado_prj/symmetric_fir_vivado.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 579.238 ; gain = 151.129
+### Set Xilinx Vivado 2022.2 project properties
+### Update Xilinx Vivado 2022.2 project with HDL source files
+WARNING: [Vivado 12-818] No files matched '*.tcl'
+### Close Xilinx Vivado 2022.2 project.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 22 12:16:36 2023...
+
+Elapsed time is 13.6792 seconds.
