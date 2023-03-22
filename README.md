@@ -1,3 +1,18 @@
+# FIR Filter using FPGA
+
+  
+- [FIR Filter using FPGA](#fir-filter-using-fpga)
+- [1. Basic HDL Code Generation Workflow](#1-basic-hdl-code-generation-workflow)
+- [2. Simulink Model](#2-simulink-model)
+- [3. Check HDL Compatibility](#3-check-hdl-compatibility)
+  - [3.1 Run Checks In the HDL Code Advisor](#31-run-checks-in-the-hdl-code-advisor)
+  - [3.2 Fix HDL Code Advisor Warnings or Failures](#32-fix-hdl-code-advisor-warnings-or-failures)
+  - [3.3 View and Save HDL Code Advisor Reports](#33-view-and-save-hdl-code-advisor-reports)
+- [4. Generate Verilog Code](#4-generate-verilog-code)
+  - [4.1 View HDL Code Generation Files](#41-view-hdl-code-generation-files)
+  - [4.2 Inspect Generated HDL Code](#42-inspect-generated-hdl-code)
+  - [4.3 Validate HDL Behavior Using Validation Model](#43-validate-hdl-behavior-using-validation-model)
+- [5. Verify Generated HDL Code](#5-verify-generated-hdl-code)
 
 
 # 1. Basic HDL Code Generation Workflow
